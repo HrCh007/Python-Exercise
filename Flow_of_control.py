@@ -52,3 +52,60 @@ for i in range(start,end):
             break
     if temp:
         print(i)
+
+#Exercise 14: Reverse a given integer number
+
+x = 66374
+n = 0
+while x > 0:
+    t = x % 10
+    n = n*10 + t
+    x = x // 10
+
+print(n)
+
+# Exercise 15: Use a loop to display elements from a given list present at odd index positions
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+ll = len(my_list)
+
+for i in range(ll):
+    if i % 2 == 1:
+        print(my_list[i], end = " ")
+
+# Exercise 17: Find the sum of the series upto n terms
+Write a program to calculate the sum of series up to n term. For example, if n =5 the series will become 2 + 22 + 222 + 2222 + 22222 = 24690
+
+n = 5
+num = 0
+sum = 0
+for i in range(1,n+1):
+    num = num * 10 + 2
+    sum = sum + num
+
+print(sum)
+
+# Exercise 18: Print the following pattern
+"""
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+"""
+n = 5
+
+for i in range(1,n+1):
+    for j in range(i):
+        print('*', end = " ")
+    print("")
+
+for i in range(n-1,0,-1):
+    for j in range(i):
+        print("*", end = " ")
+    print("")
