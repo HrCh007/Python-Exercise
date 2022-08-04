@@ -26,3 +26,24 @@ def show_employee(name, salary=9000):
 show_employee("Ben", 12000)
 show_employee("Jessa")
 
+# Exercise 7: Assign a different name to function and call it through the new name
+
+def display_student(name, age):
+    print(name, age)
+
+display_student("Emma", 26)
+
+showStudent = display_student
+
+showStudent("Emma", 26)
+
+# Exercise 8: Generate a Python list of all the even numbers between 4 to 30
+
+list1 = list(range(4,30,2))
+print(list1)
+
+# Exercise 9: Find the largest item from a given list
+
+x = [4, 6, 8, 24, 12, 2]
+print(max(x))
+

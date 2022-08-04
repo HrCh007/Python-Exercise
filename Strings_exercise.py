@@ -57,3 +57,69 @@ for i in range(length):
 
 print(result)
 
+# Exercise 7: String characters balance Test
+
+s1 = "Ynf"
+s2 = "PYnative"
+flag = True
+for ch in s1:
+    if ch in s2:
+        continue
+    else:
+        flag = False
+
+print(flag)
+
+# Exercise 8: Find all occurrences of a substring in a given string by ignoring the case
+
+str1 = "Welcome to USA. usa awesome, isn't it?"
+
+sub_string = "USA"
+
+temp_str = str1.lower()
+
+count = temp_str.count(sub_string.lower())
+print("The USA count is:", count)
+
+# Exercise 9: Calculate the sum and average of the digits present in a string
+
+input_str = "PYnative29@#8496"
+total = 0
+cnt = 0
+for char in input_str:
+    if char.isdigit():
+        total += int(char)
+        cnt += 1
+
+# average = sum / count of digits
+avg = total / cnt
+print("Sum is:", total, "Average is ", avg)
+
+# Exercise 11: Reverse a given string
+
+str1 = "PYnative"
+print("Original String is:", str1)
+
+str1 = str1[::-1]
+print("Reversed String is:", str1)
+
+# Exercise 13: Split a string on hyphens
+
+str1 = "Emma-is-a-data-scientist"
+print("Original String is:", str1)
+
+sub_strings = str1.split("-")
+
+print("Displaying each substring")
+for sub in sub_strings:
+    print(sub)
+
+# Exercise 16: Remove all characters from a string except integers
+
+str1 = 'I am 25 years and 10 months old'
+print("Original string is", str1)
+
+res = "".join([item for item in str1 if item.isdigit()])
+
+print(res)
+
