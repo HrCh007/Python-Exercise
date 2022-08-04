@@ -44,3 +44,13 @@ list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
 
 list1[2][2].append(7000)
 print(list1)
+
+# Exercise 10: Remove all occurrences of a specific item from a list.
+
+val = 20
+list1 = [5, 20, 15, 20, 25, 50, 20]
+
+res = [ i for i in list1 if i != val]
+print(res)
+
+
