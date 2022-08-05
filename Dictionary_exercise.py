@@ -53,3 +53,42 @@ keys = ["name", "salary"]
 newDict = {k: sampleDict[k] for k in keys}
 print(newDict)
 
+# Exercise 7: Check if a value exists in a dictionary
+
+sample_dict = {'a': 100, 'b': 200, 'c': 300}
+val = 200
+
+if val in sample_dict.values():
+    print("present")
+
+# Exercise 8: Rename key of a dictionary
+
+sample_dict = {
+  "name": "Kelly",
+  "age":25,
+  "salary": 8000,
+  "city": "New york"
+}
+
+sample_dict['location'] = sample_dict.pop('city')
+print(sample_dict)
+
+# Exercise 9: Get the key of a minimum value from the following dictionary
+
+sample_dict = {
+    'Physics': 82,
+    'Math': 65,
+    'history': 75
+}
+print(min(sample_dict, key=sample_dict.get))
+
+# Exercise 10: Change value of a key in a nested dictionary
+
+sample_dict = {
+    'emp1': {'name': 'Jhon', 'salary': 7500},
+    'emp2': {'name': 'Emma', 'salary': 8000},
+    'emp3': {'name': 'Brad', 'salary': 6500}
+}
+
+sample_dict['emp3']['salary'] = 8500
+print(sample_dict)
