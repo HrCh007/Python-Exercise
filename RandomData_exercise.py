@@ -66,8 +66,6 @@ print ("Password is ", randomPassword(), '\n')
 
 # Exercise 7: Calculate multiplication of two random float numbers
 
-import random
-
 num1  = random.uniform(0.1,1)
 print("First Random float is ", num1)
 num2 = random.uniform(9.5, 99.5)
@@ -75,3 +73,18 @@ print("Second Random float is ", num2)
 
 num3 = num1 * num2
 print("Multiplication is ", num3)
+
+# Exercise 8: Generate random secure token of 64 bytes and random URL
+
+print("Random secure Hexadecimal token is ", secrets.token_hex(64))
+print("Random secure URL is ", secrets.token_urlsafe(64))
+
+# Exercise 9: Roll dice in such a way that every time you get the same number
+
+dice = [1, 2, 3, 4, 5, 6]
+print("Randomly selecting same number of a dice")
+for i in range(5):
+    random.seed(25)
+    print(random.choice(dice))
+
+# 
