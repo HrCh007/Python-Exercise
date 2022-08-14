@@ -9,6 +9,8 @@ if p < 1000:
   print(p)
 else:
   print(number1 + number2)
+  
+print('\n')
 
 # 2
 
@@ -18,6 +20,8 @@ for i in range(0,10):
   if(i==0):
     x = 0
   print(x)
+  
+print('\n')
 
 # 3 
 
@@ -26,6 +30,8 @@ str = "H"
 for i in range(0, len(str), 2):
   print(str[i])
 
+print('\n')
+
 # 4
 
 def remove_char(st,n):
@@ -33,6 +39,7 @@ def remove_char(st,n):
   print(x)
 
 remove_char("Hrithik",3)
+print('\n')
 
 
 # 8
@@ -43,6 +50,8 @@ for i in range(n):
   for j in range(i):
     print(i, end = "")
   print("")
+
+print('\n')
 
 # 9 
 
@@ -58,6 +67,7 @@ if n == s:
   print("palindrome", s)
 else:
   print("not plaindrome", s)
+print('\n')
 
 # 13 
 
@@ -65,6 +75,7 @@ for i in range(1,11):
   for j in range(1,11):
     print(i*j, end = " ")
   print(" ")
+print('\n')
 
 # 14
 
@@ -72,3 +83,5 @@ for i in range(5,0,-1):
   for j in range(0,i):
     print('*', end = " ")
   print(" ")
+
+print('\n')
