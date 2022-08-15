@@ -1,0 +1,32 @@
+10
+
+
+Enter number :6
+Enter number :6
+Enter number :6
+Enter number :4
+Enter number :2
+[6.0, 6.0, 6.0, 4.0, 2.0]
+
+
+line1
+line2
+line3
+line4
+line6
+line7
+
+
+Enter three string jiji jijij jijij
+Name1: jiji
+Name2: jijij
+Name3: jijij
+
+
+I have 1000 dollars so I can buy 3 football for 450.00 dollars.
+
+
+
+
+line4
+
