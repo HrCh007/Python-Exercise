@@ -1,0 +1,39 @@
+Jms
+
+
+ame
+
+
+AuKellylt
+
+
+
+
+yaivePNT
+AzbycX
+
+
+False
+
+
+The USA count is: 2
+
+
+Sum is: 38 Average is  6.333333333333333
+
+
+Original String is: PYnative
+Reversed String is: evitanYP
+
+
+Original String is: Emma-is-a-data-scientist
+Displaying each substring
+Emma
+is
+a
+data
+scientist
+
+
+Original string is I am 25 years and 10 months old
+2510

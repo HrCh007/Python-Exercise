@@ -4,12 +4,16 @@ str1 = "James"
 str2 =  str1[0] + str1[len(str1)//2] + str1[len(str1)-1]
 print(str2)
 
+print('\n')
+
 # Exercise 1B: Create a string made of the middle three characters
 
 str1 = "James"
 ms = len(str1) // 2
 str2 = str1[ms-1:ms+2]
 print(str2) 
+
+print('\n')
 
 # Exercise 2: Append new string in the middle of a given string
 
@@ -19,6 +23,8 @@ s2 = "Kelly"
 ms = len(s1) // 2
 x = s1[:ms] + s2 + s1[ms:]
 print(x)
+
+print('\n')
 
 # Exercise 4: Arrange string characters such that lowercase letters should come first
 
@@ -30,6 +36,8 @@ for ch in str1:
 for ch in str1:
     if ch.isupper():
         str2 = str2 + ch
+
+print('\n')
 
 print(str2)
 
@@ -57,6 +65,8 @@ for i in range(length):
 
 print(result)
 
+print('\n')
+
 # Exercise 7: String characters balance Test
 
 s1 = "Ynf"
@@ -70,6 +80,8 @@ for ch in s1:
 
 print(flag)
 
+print('\n')
+
 # Exercise 8: Find all occurrences of a substring in a given string by ignoring the case
 
 str1 = "Welcome to USA. usa awesome, isn't it?"
@@ -80,6 +92,8 @@ temp_str = str1.lower()
 
 count = temp_str.count(sub_string.lower())
 print("The USA count is:", count)
+
+print('\n')
 
 # Exercise 9: Calculate the sum and average of the digits present in a string
 
@@ -95,6 +109,9 @@ for char in input_str:
 avg = total / cnt
 print("Sum is:", total, "Average is ", avg)
 
+
+print('\n')
+
 # Exercise 11: Reverse a given string
 
 str1 = "PYnative"
@@ -102,6 +119,8 @@ print("Original String is:", str1)
 
 str1 = str1[::-1]
 print("Reversed String is:", str1)
+
+print('\n')
 
 # Exercise 13: Split a string on hyphens
 
@@ -114,6 +133,8 @@ print("Displaying each substring")
 for sub in sub_strings:
     print(sub)
 
+print('\n')
+
 # Exercise 16: Remove all characters from a string except integers
 
 str1 = 'I am 25 years and 10 months old'
@@ -123,3 +144,4 @@ res = "".join([item for item in str1 if item.isdigit()])
 
 print(res)
 
+print('\n')
