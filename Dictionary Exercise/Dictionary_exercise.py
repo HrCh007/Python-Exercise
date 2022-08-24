@@ -8,6 +8,8 @@ for i,j in zip(keys, values):
 
 print(dict1)
 
+print('\n')
+
 # Exercise 2: Merge two Python dictionaries into one
 
 dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
@@ -15,6 +17,8 @@ dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
 
 dict3 = {**dict1, **dict2}
 print(dict3)
+
+print('\n')
 
 # Exercise 3: Print the value of key ‘history’ from the below dict
 
@@ -32,6 +36,8 @@ sampleDict = {
 
 print(sampleDict["class"]["student"]["marks"]["history"])
 
+print('\n')
+
 # Exercise 4: Initialize dictionary with default values
 
 employees = ['Kelly', 'Emma']
@@ -39,6 +45,8 @@ defaults = {"designation": 'Developer', "salary": 8000}
 
 res = dict.fromkeys(employees, defaults)
 print(res)
+
+print('\n')
 
 # Exercise 5: Create a dictionary by extracting the keys from a given dictionary
 
@@ -53,6 +61,8 @@ keys = ["name", "salary"]
 newDict = {k: sampleDict[k] for k in keys}
 print(newDict)
 
+print('\n')
+
 # Exercise 7: Check if a value exists in a dictionary
 
 sample_dict = {'a': 100, 'b': 200, 'c': 300}
@@ -60,6 +70,8 @@ val = 200
 
 if val in sample_dict.values():
     print("present")
+
+print('\n')
 
 # Exercise 8: Rename key of a dictionary
 
@@ -73,6 +85,8 @@ sample_dict = {
 sample_dict['location'] = sample_dict.pop('city')
 print(sample_dict)
 
+print('\n')
+
 # Exercise 9: Get the key of a minimum value from the following dictionary
 
 sample_dict = {
@@ -81,6 +95,8 @@ sample_dict = {
     'history': 75
 }
 print(min(sample_dict, key=sample_dict.get))
+
+print('\n')
 
 # Exercise 10: Change value of a key in a nested dictionary
 
@@ -92,3 +108,5 @@ sample_dict = {
 
 sample_dict['emp3']['salary'] = 8500
 print(sample_dict)
+
+print('\n')
