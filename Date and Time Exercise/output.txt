@@ -1,0 +1,27 @@
+2022-08-24 23:29:34.171468
+23:29:34.171534
+
+
+2020-02-25 16:20:00
+
+
+Given date
+2020-02-25 00:00:00
+New Date
+2020-02-18 00:00:00
+
+
+Given date is
+Tuesday 25 February 2020
+
+
+2
+Sunday
+
+
+1661363974186
+
+
+date_2 is greater
+Difference is 205 days
+<class 'datetime.timedelta'>
